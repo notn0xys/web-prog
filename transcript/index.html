@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unofficial Transcript</title>
+    <style>
+        th {
+            border: 1px solid black;
+        }
+
+    </style>
+
+</head>
+<body style="font-size: 12px;">
+    <div style="margin: 10px; border: solid 1px black; padding: 10px; position: relative;">
+        <h2 style="text-align: center;">(Unofficial) Transcript</h2>
+        <div style="position: absolute; top: 50px; right: 15px; width: 120px; height: 120px; border: 1px solid black;">
+            <p style="text-align: center;">(Photo)</p>
+        </div>
+        <p style="text-align: center;">School of Engineering</p>
+        <form>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <p> Name: </p>
+                <input type="text" id="name" placeholder="Mr/Miss Nxxxxx Xxxxxx">
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <p> Date of Birth: </p>
+                <input type="text" id="dob" placeholder="MM DD, 20xx">
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <p> Date of Admission: </p>
+                <input type="number" id="doa" placeholder="20xx">
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <p> Degree: </p>
+            <input type="text" id="degree" placeholder="Bachelor of Engineering">
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <p> Major: </p>
+                <input type="text" id="major" placeholder="Software Engineering">
+            </div>
+            <table style="width: 100%; border: 1px solid black; text-align: center; border-collapse: collapse;">
+                <tr>
+                    <th style="width: 40%;">
+                        COURSE TITLE
+                    </th>
+                    <th style="width: 5%;">
+                        CREDIT
+                    </th>
+                    <th style="width: 5%;">
+                        GRADE
+                    </th>
+                    <th style="width: 40%;">
+                        COURSE TITLE
+                    </th>
+                    <th style="width: 5%;">
+                        CREDIT
+                    </th>
+                    <th style="width: 5%;">
+                        GRADE
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="text-decoration: underline;"> Transfer credit</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <input type="text" name="trasf1code" id ="trasf1code"placeholder="13006208" size="10">
+                            <input type="text" name="trasf1" id = "trasf1"placeholder="ACADEMIC ENGLISH 1" size="60">
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" name="credittrns1" id="credittrns1" placeholder="3" size="6">
+                    </td>
+                    <td>
+                        <input type="text" name="gradetrns1" id="gradetrns1" placeholder="x" size="6">     
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <input type="text" name="trasf2code" id ="trasf2code"placeholder="13006209" size="10">
+                            <input type="text" name="trasf2" id = "trasf2"placeholder="ACADEMIC ENGLISH 2" size="60">
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" name="credittrns2" id="credittrns2" placeholder="3" size="6">
+                    </td>
+                    <td>
+                        <input type="text" name="gradetrns2" id="gradetrns2" placeholder="x" size="6">     
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="display: flex; align-items: center; justify-content: center;" >
+                            <p>GPA :</p>
+                            <input type="text" name="gpatf" id="gpatf" placeholder="X.XX" size="3">
+                        </div>
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </div>
+</body>
+</html>
