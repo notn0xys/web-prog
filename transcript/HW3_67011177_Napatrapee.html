@@ -8,6 +8,11 @@
         th {
             border: 1px solid black;
         }
+        .top {
+            display: flex; 
+            align-items: center; 
+            gap: 10px;
+        }
 
     </style>
 
@@ -20,23 +25,35 @@
         </div>
         <p style="text-align: center;">School of Engineering</p>
         <form>
-            <div style="display: flex; align-items: center; gap: 10px;">
+            <div class="top">
                 <p> Name: </p>
                 <input type="text" id="name" placeholder="Mr/Miss Nxxxxx Xxxxxx">
             </div>
-            <div style="display: flex; gap: 10px; align-items: center;">
-                <p> Date of Birth: </p>
-                <input type="text" id="dob" placeholder="MM DD, 20xx">
+            <div class="top">
+                <div class="top" style="margin-right: 30%;">                
+                    <p> Date of Birth: </p>
+                    <input type="text" id="studentid" placeholder="MM DD 20xx">
+                </div>
+                <div class="top">
+                    <p>Student ID </p>
+                    <input type="text" id="dob" placeholder="65xxxxxxx">
+                </div>
             </div>
-            <div style="display: flex; gap: 10px; align-items: center;">
-                <p> Date of Admission: </p>
-                <input type="number" id="doa" placeholder="20xx">
+            <div class="top">
+                <div class="top" style="margin-right: 29%;">
+                    <p> Date of Admission: </p>
+                    <input type="number" id="doa" placeholder="20xx">
+                </div>
+                <div class="top">
+                    <p> Date of Graduation </p>
+                    <input type="text" id="dob" placeholder="N/A">
+                </div>
             </div>
-            <div style="display: flex; gap: 10px; align-items: center;">
+            <div class="top">
                 <p> Degree: </p>
-            <input type="text" id="degree" placeholder="Bachelor of Engineering">
+                <input type="text" id="degree" placeholder="Bachelor of Engineering">
             </div>
-            <div style="display: flex; gap: 10px; align-items: center;">
+            <div class="top">
                 <p> Major: </p>
                 <input type="text" id="major" placeholder="Software Engineering">
             </div>
@@ -461,8 +478,8 @@
                     </td>
                 </tr>
             </table>
-            <div>
-                <button type="submit"> Submit</button>
+            <div style="text-align: right; margin-top: 10px;">
+                <button type="submit" style="padding: 10px 20px; font-size: 16px; border-radius: 5px;">Submit</button>
             </div>
         </form>
     </div>
