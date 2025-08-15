@@ -1,0 +1,27 @@
+.table-con {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px;
+    gap: 0px;
+    margin: 0px;
+}
+.table-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.table-element >  * {
+    border: 1px solid black;
+    padding: 10px;
+}
+.input-row {
+    display: flex;
+    flex-direction: row;
+}
+p {
+    margin: 0px;
+    width: 300px;
+}
