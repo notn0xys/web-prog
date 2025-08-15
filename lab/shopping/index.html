@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <div class="table-con" id = "table-con">
+        <div class="table-element" id="Head">
+            <p>item name</p>
+            <p> Amount </p>
+            <p>Price </p>
+        </div>
+    </div>
+    <button onclick="clearDocuments()">Reset List</button>
+    <h2>Add item</h2>
+    <div class="input-row">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+    </div>
+    <div class="input-row">
+        <label for="amount">Amount:</label>
+        <input type="text" name="amount" id="amount">
+    </div>
+    <div class="input-row">
+        <label for="price">Price:</label>
+        <input type="text" name="price" id="price">
+    </div>
+    <br>
+    <div class="input-row">
+        <button onclick="handleAdd()">Add Item</button>
+        <button onclick="clearinput()">Clear</button>
+    </div>
+</body>
+</html>
