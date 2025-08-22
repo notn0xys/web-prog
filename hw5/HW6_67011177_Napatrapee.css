@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.red {
+    color: red;
+}
+table, th , td{
+    border: 1px solid black;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    min-width: 40px;
+    height: 30px;
+
+}
