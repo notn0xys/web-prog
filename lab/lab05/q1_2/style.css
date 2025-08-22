@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+table, tr, th , td {
+    border: 1px solid black;
+    
+}
+table {
+    border-collapse: collapse;
+}
+#meow-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
