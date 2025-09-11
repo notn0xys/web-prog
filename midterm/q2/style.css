@@ -1,0 +1,24 @@
+.container {
+    border:  1px solid black;
+    padding: 20px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+.row-container {
+    display: flex;
+    flex-direction: row;
+}
+.your-bmi {
+    background-color: yellow;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: lightblue;
+}

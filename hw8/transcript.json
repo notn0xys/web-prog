@@ -1,0 +1,117 @@
+{
+    "student_name": "Napatrapee Chieowwit",
+    "date_of_birth": "2006-08-15",
+    "student_id": "67011177",
+    "date_of_admission": "2024",
+    "date_of_graduation": "N/A",
+    "degree": "Bachelor of Engineering",
+    "major": "Software Engineering",
+    "credit": {
+        "Year, 2024-2025": {
+            "1st Semester": [
+                {
+                    "name": "Introduction to Calculus",
+                    "subject_id": "01006710",
+                    "credit": 3,
+                    "grade": "A"
+                },
+                {
+                    "name": "Circuits and Electronics",
+                    "subject_id": "01286111",
+                    "credit": 4,
+                    "grade": "A"
+                },
+                {
+                    "name": "Elementary Systems Programming",
+                    "subject_id": "01286120",
+                    "credit": 4,
+                    "grade": "A"
+                },
+                {
+                    "name": "Computer Programming",
+                    "subject_id": "01286121",
+                    "credit": 4,
+                    "grade": "B+"
+                },
+                {
+                    "name": "Digital Citizen",
+                    "subject_id": "96641007",
+                    "credit": 3,
+                    "grade": "S"
+                },
+                {
+                    "name": "Introduction to Logic",
+                    "subject_id": "96642170",
+                    "credit": 3,
+                    "grade": "A"
+                }
+            ],
+            "2nd Semester": [
+                {
+                    "name": "Differential Equations",
+                    "subject_id": "01006717",
+                    "credit": 3,
+                    "grade": "A"
+                },
+                {
+                    "name": "Discrete Mathematics",
+                    "subject_id": "01006718",
+                    "credit": 3,
+                    "grade": "A"
+                },
+                {
+                    "name": "Digital System Fundamentals",
+                    "subject_id": "01286112",
+                    "credit": 4,
+                    "grade": "A"
+                },
+                {
+                    "name": "Object-Oriented Programming",
+                    "subject_id": "01286131",
+                    "credit": 4,
+                    "grade": "B+"
+                },
+                {
+                    "name": "Film Appreciation",
+                    "subject_id": "96642083",
+                    "credit": 3,
+                    "grade": "A"
+                }
+            ]
+        },
+        "Year, 2025-2026": {
+            "1st Semester": [
+                {
+                    "name": "Probability Models and Data Analysis",
+                    "subject_id": "01006730",
+                    "credit": 3,
+                    "grade": "X"
+                },
+                {
+                    "name": "Computer Architecture and Organization",
+                    "subject_id": "01286213",
+                    "credit": 4,
+                    "grade": "X"
+                },
+                {
+                    "name": "Data Structures and Algorithms",
+                    "subject_id": "01286222",
+                    "credit": 4,
+                    "grade": "X"
+                },
+                {
+                    "name": "Web Programming",
+                    "subject_id": "01286233",
+                    "credit": 4,
+                    "grade": "X"
+                },
+                {
+                    "name": "Public Speaking",
+                    "subject_id": "96644043",
+                    "credit": 3,
+                    "grade": "X"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.exchangeheader {
+    color: white;
+    background-color: #800080;
+}
+.tablefont {
+    font-family: 'Courier New', Courier, monospace
+}
+.evenrow {
+    background-color: #D8BFD8;
+}
+tr:hover td:first-child {
+  color: red;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #D8BFD8;
+
+}
+
