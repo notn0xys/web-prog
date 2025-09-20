@@ -17,7 +17,7 @@ function calculate(keyPressed) {
         for (let i in operators) {
             let string_arr = result.textContent.split(operators[i]);
             console.log(string_arr);
-            console.log(operators[i]);13
+            console.log(operators[i]);
             if (string_arr.length == 2) {
                 result.textContent = eval(string_arr[0] + operators[i] + string_arr[1]);
             }
@@ -25,7 +25,7 @@ function calculate(keyPressed) {
     }
     if (keyPressed == '+' || keyPressed == '-' || keyPressed == '*' || keyPressed == '/') {
         let textstring = result.textContent;
-        let meow = textstring += ke41yPressed;
+        let meow = textstring += keyPressed;
         result.textContent = meow;
     }
 }
@@ -35,11 +35,3 @@ document.addEventListener('keydown', (event) => {
     calculate(pressedKey);
   });
 
-document.querySelectorAll("td").forEach((td) => {
-    td.addEventListener("click", () => {
-        const buttonValue = td.textContent;
-        if (buttonValue !== "Scientific") {
-            calculate(buttonValue);
-        }
-    });
-});
