@@ -1,0 +1,13 @@
+thead {
+    background-color: aquamarine;
+}
+
+table {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+tr  {
+    border: 1px solid black;
+}
