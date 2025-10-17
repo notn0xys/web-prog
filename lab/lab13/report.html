@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meow</title>
+    <link rel="stylesheet" href="{{url_for('static', path = 'index.css') }}">
+</head>
+<body>
+    <h2>Name: {{user.name}}</h2>
+    <h3>ID {{user.id}}</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Credit</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for course in courses %}
+            <tr>
+                <td>{{course}}</td>
+                <td>{{courses[course][0]}}</td>
+                <td>{{courses[course][1]}}</td>
+                <td>{{courses[course][2]}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <h3>Check Grade</h3>
+    <input type="text" id = "grade">
+    <button onclick="handle_click()">Check</button>
+</body>
+<script src="{{url_for('static', path = 'script.js') }}"></script>
+</html>
